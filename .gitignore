@@ -1,0 +1,61 @@
+## Windows image file caches
+Thumbs.db
+
+## OSX
+.DS_Store
+
+# Thumbnails
+._*
+
+##Node.js
+# Logs
+logs
+*.log
+
+# Dependency directory
+node_modules
+
+#gulp-sftp id,PW
+ftp.js
+
+##SASS
+#sass-cache
+.sass-cache
+
+
+## Dreamweaver
+_notes
+dwsync.xml
+**/*.mno
+
+
+##sublimetext
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+*.sublime-project
+
+#sftp configuration file
+sftp-config.json
+
+.idea/
+
+db-data/
+
+public_html/wp/*.php
+public_html/wp/*.txt
+public_html/wp/*.html
+public_html/wp/wp-admin
+public_html/wp/wp-includes
+public_html/wp/wp-content/languages
+public_html/wp/wp-content/plugins
+public_html/wp/wp-content/upgrade
+public_html/wp/wp-content/uploads
+public_html/wp/wp-content/themes/twentyfifteen
+public_html/wp/wp-content/themes/twentyseventeen
+public_html/wp/wp-content/themes/twentysixteen
+public_html/wp/wp-content/themes/index.php
+
+public_html/wp/wp-content/index.php
