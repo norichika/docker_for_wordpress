@@ -1,5 +1,4 @@
 FROM php:7.1.9-fpm-alpine
-ADD php.ini /usr/local/etc/php/php.ini
 RUN docker-php-ext-install pdo_mysql mysqli mbstring
 RUN apk add --no-cache freetype libpng libjpeg-turbo freetype-dev libpng-dev libjpeg-turbo-dev && \
   docker-php-ext-configure gd \
